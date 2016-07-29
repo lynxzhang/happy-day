@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE9EEA1D1CA3CF1F00798ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EEA1C1CA3CF1F00798ACC /* AppDelegate.m */; };
+		FE9EEA201CA3CF1F00798ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EEA1F1CA3CF1F00798ACC /* main.m */; };
+		FE9EEA251CA3CF1F00798ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9EEA241CA3CF1F00798ACC /* Assets.xcassets */; };
+		FE9EEA281CA3CF1F00798ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9EEA261CA3CF1F00798ACC /* Main.storyboard */; };
+		FE9EEA331CA3CF1F00798ACC /* FirstMacDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EEA321CA3CF1F00798ACC /* FirstMacDemoTests.m */; };
+		FE9EEA3E1CA3CF1F00798ACC /* FirstMacDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EEA3D1CA3CF1F00798ACC /* FirstMacDemoUITests.m */; };
+		FE9EEA901CA525D200798ACC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9EEA8E1CA525D200798ACC /* ViewController.m */; };
+		FE9EEA911CA525D200798ACC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9EEA8F1CA525D200798ACC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE9EEA2F1CA3CF1F00798ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9EEA101CA3CF1E00798ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9EEA171CA3CF1F00798ACC;
+			remoteInfo = FirstMacDemo;
+		};
+		FE9EEA3A1CA3CF1F00798ACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE9EEA101CA3CF1E00798ACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE9EEA171CA3CF1F00798ACC;
+			remoteInfo = FirstMacDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3733BC1CABECEA00C617FC /* FirstMacDemo2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FirstMacDemo2-Info.plist"; path = "/Users/zhangxiang/百度云同步盘/当前工作区/FirstMacDemo/FirstMacDemo2-Info.plist"; sourceTree = "<absolute>"; };
+		FE9EEA181CA3CF1F00798ACC /* FirstMacDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstMacDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9EEA1B1CA3CF1F00798ACC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE9EEA1C1CA3CF1F00798ACC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE9EEA1F1CA3CF1F00798ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE9EEA241CA3CF1F00798ACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE9EEA271CA3CF1F00798ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE9EEA291CA3CF1F00798ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9EEA2E1CA3CF1F00798ACC /* FirstMacDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstMacDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9EEA321CA3CF1F00798ACC /* FirstMacDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstMacDemoTests.m; sourceTree = "<group>"; };
+		FE9EEA341CA3CF1F00798ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9EEA391CA3CF1F00798ACC /* FirstMacDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstMacDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9EEA3D1CA3CF1F00798ACC /* FirstMacDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstMacDemoUITests.m; sourceTree = "<group>"; };
+		FE9EEA3F1CA3CF1F00798ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9EEA8D1CA525D200798ACC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE9EEA8E1CA525D200798ACC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE9EEA8F1CA525D200798ACC /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9EEA151CA3CF1F00798ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA2B1CA3CF1F00798ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA361CA3CF1F00798ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE9EEA0F1CA3CF1E00798ACC = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA1A1CA3CF1F00798ACC /* FirstMacDemo */,
+				FE9EEA311CA3CF1F00798ACC /* FirstMacDemoTests */,
+				FE9EEA3C1CA3CF1F00798ACC /* FirstMacDemoUITests */,
+				FE9EEA191CA3CF1F00798ACC /* Products */,
+				FE3733BC1CABECEA00C617FC /* FirstMacDemo2-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9EEA191CA3CF1F00798ACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA181CA3CF1F00798ACC /* FirstMacDemo.app */,
+				FE9EEA2E1CA3CF1F00798ACC /* FirstMacDemoTests.xctest */,
+				FE9EEA391CA3CF1F00798ACC /* FirstMacDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9EEA1A1CA3CF1F00798ACC /* FirstMacDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA1B1CA3CF1F00798ACC /* AppDelegate.h */,
+				FE9EEA1C1CA3CF1F00798ACC /* AppDelegate.m */,
+				FE9EEA8D1CA525D200798ACC /* ViewController.h */,
+				FE9EEA8E1CA525D200798ACC /* ViewController.m */,
+				FE9EEA8F1CA525D200798ACC /* ViewController.xib */,
+				FE9EEA241CA3CF1F00798ACC /* Assets.xcassets */,
+				FE9EEA261CA3CF1F00798ACC /* Main.storyboard */,
+				FE9EEA291CA3CF1F00798ACC /* Info.plist */,
+				FE9EEA1E1CA3CF1F00798ACC /* Supporting Files */,
+			);
+			path = FirstMacDemo;
+			sourceTree = "<group>";
+		};
+		FE9EEA1E1CA3CF1F00798ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA1F1CA3CF1F00798ACC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE9EEA311CA3CF1F00798ACC /* FirstMacDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA321CA3CF1F00798ACC /* FirstMacDemoTests.m */,
+				FE9EEA341CA3CF1F00798ACC /* Info.plist */,
+			);
+			path = FirstMacDemoTests;
+			sourceTree = "<group>";
+		};
+		FE9EEA3C1CA3CF1F00798ACC /* FirstMacDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EEA3D1CA3CF1F00798ACC /* FirstMacDemoUITests.m */,
+				FE9EEA3F1CA3CF1F00798ACC /* Info.plist */,
+			);
+			path = FirstMacDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9EEA171CA3CF1F00798ACC /* FirstMacDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9EEA421CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemo" */;
+			buildPhases = (
+				FE9EEA141CA3CF1F00798ACC /* Sources */,
+				FE9EEA151CA3CF1F00798ACC /* Frameworks */,
+				FE9EEA161CA3CF1F00798ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstMacDemo;
+			productName = FirstMacDemo;
+			productReference = FE9EEA181CA3CF1F00798ACC /* FirstMacDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE9EEA2D1CA3CF1F00798ACC /* FirstMacDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9EEA451CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemoTests" */;
+			buildPhases = (
+				FE9EEA2A1CA3CF1F00798ACC /* Sources */,
+				FE9EEA2B1CA3CF1F00798ACC /* Frameworks */,
+				FE9EEA2C1CA3CF1F00798ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9EEA301CA3CF1F00798ACC /* PBXTargetDependency */,
+			);
+			name = FirstMacDemoTests;
+			productName = FirstMacDemoTests;
+			productReference = FE9EEA2E1CA3CF1F00798ACC /* FirstMacDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE9EEA381CA3CF1F00798ACC /* FirstMacDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9EEA481CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemoUITests" */;
+			buildPhases = (
+				FE9EEA351CA3CF1F00798ACC /* Sources */,
+				FE9EEA361CA3CF1F00798ACC /* Frameworks */,
+				FE9EEA371CA3CF1F00798ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9EEA3B1CA3CF1F00798ACC /* PBXTargetDependency */,
+			);
+			name = FirstMacDemoUITests;
+			productName = FirstMacDemoUITests;
+			productReference = FE9EEA391CA3CF1F00798ACC /* FirstMacDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9EEA101CA3CF1E00798ACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhangxiang;
+				TargetAttributes = {
+					FE9EEA171CA3CF1F00798ACC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FE9EEA2D1CA3CF1F00798ACC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FE9EEA171CA3CF1F00798ACC;
+					};
+					FE9EEA381CA3CF1F00798ACC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FE9EEA171CA3CF1F00798ACC;
+					};
+				};
+			};
+			buildConfigurationList = FE9EEA131CA3CF1E00798ACC /* Build configuration list for PBXProject "FirstMacDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE9EEA0F1CA3CF1E00798ACC;
+			productRefGroup = FE9EEA191CA3CF1F00798ACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9EEA171CA3CF1F00798ACC /* FirstMacDemo */,
+				FE9EEA2D1CA3CF1F00798ACC /* FirstMacDemoTests */,
+				FE9EEA381CA3CF1F00798ACC /* FirstMacDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9EEA161CA3CF1F00798ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9EEA251CA3CF1F00798ACC /* Assets.xcassets in Resources */,
+				FE9EEA911CA525D200798ACC /* ViewController.xib in Resources */,
+				FE9EEA281CA3CF1F00798ACC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA2C1CA3CF1F00798ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA371CA3CF1F00798ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9EEA141CA3CF1F00798ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9EEA901CA525D200798ACC /* ViewController.m in Sources */,
+				FE9EEA201CA3CF1F00798ACC /* main.m in Sources */,
+				FE9EEA1D1CA3CF1F00798ACC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA2A1CA3CF1F00798ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9EEA331CA3CF1F00798ACC /* FirstMacDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE9EEA351CA3CF1F00798ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9EEA3E1CA3CF1F00798ACC /* FirstMacDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE9EEA301CA3CF1F00798ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9EEA171CA3CF1F00798ACC /* FirstMacDemo */;
+			targetProxy = FE9EEA2F1CA3CF1F00798ACC /* PBXContainerItemProxy */;
+		};
+		FE9EEA3B1CA3CF1F00798ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE9EEA171CA3CF1F00798ACC /* FirstMacDemo */;
+			targetProxy = FE9EEA3A1CA3CF1F00798ACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE9EEA261CA3CF1F00798ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9EEA271CA3CF1F00798ACC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE9EEA401CA3CF1F00798ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE9EEA411CA3CF1F00798ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE9EEA431CA3CF1F00798ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE9EEA441CA3CF1F00798ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE9EEA461CA3CF1F00798ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstMacDemo.app/Contents/MacOS/FirstMacDemo";
+			};
+			name = Debug;
+		};
+		FE9EEA471CA3CF1F00798ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstMacDemo.app/Contents/MacOS/FirstMacDemo";
+			};
+			name = Release;
+		};
+		FE9EEA491CA3CF1F00798ACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstMacDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE9EEA4A1CA3CF1F00798ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FirstMacDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.FirstMacDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstMacDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9EEA131CA3CF1E00798ACC /* Build configuration list for PBXProject "FirstMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9EEA401CA3CF1F00798ACC /* Debug */,
+				FE9EEA411CA3CF1F00798ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9EEA421CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9EEA431CA3CF1F00798ACC /* Debug */,
+				FE9EEA441CA3CF1F00798ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9EEA451CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9EEA461CA3CF1F00798ACC /* Debug */,
+				FE9EEA471CA3CF1F00798ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9EEA481CA3CF1F00798ACC /* Build configuration list for PBXNativeTarget "FirstMacDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9EEA491CA3CF1F00798ACC /* Debug */,
+				FE9EEA4A1CA3CF1F00798ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9EEA101CA3CF1E00798ACC /* Project object */;
+}
